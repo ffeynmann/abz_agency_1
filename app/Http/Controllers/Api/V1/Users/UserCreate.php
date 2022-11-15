@@ -16,6 +16,7 @@ class UserCreate extends Controller
         $user = new User();
 
         DB::transaction(function() use ($request, &$user){
+            //after model photo created, optimize image job will added to queue
             $photo = HandleUploadFile::getPhoto();
 
             $user = $user->fill($request->validated());

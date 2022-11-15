@@ -33,10 +33,4 @@ class User extends Authenticatable
     {
         return $this->hasOne(Photo::class);
     }
-
-
-    public function getPhotoUrl()
-    {
-
-    }
 }
