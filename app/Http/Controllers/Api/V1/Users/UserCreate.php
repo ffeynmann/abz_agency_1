@@ -26,7 +26,7 @@ class UserCreate extends Controller
         });
 
         return [
-            'success' => 'true',
+            'success' => true,
             'user_id' => $user->id,
             'message' => 'New user successfully registered'
         ];
