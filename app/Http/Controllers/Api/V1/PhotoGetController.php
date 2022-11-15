@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers\Api\V1;
 
-use App\Exceptions\PhotoNotFound;
+use App\Exceptions\Api\V1\PhotoNotFound;
 use App\Http\Controllers\Controller;
 use App\Models\Photo;
 use Illuminate\Session\Store;
