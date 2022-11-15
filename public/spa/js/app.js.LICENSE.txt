@@ -1,0 +1,11 @@
+/*!
+  * vue-router v4.1.6
+  * (c) 2022 Eduardo San Martin Morote
+  * @license MIT
+  */
+
+/*!
+ * Quasar Framework v2.10.2
+ * (c) 2015-present Razvan Stoenescu
+ * Released under the MIT License.
+ */
