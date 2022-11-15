@@ -1,6 +1,6 @@
 <?php
 
-use App\Exceptions\PhotoNotFound;
+use App\Exceptions\Api\V1\PhotoNotFound;
 use App\Http\Controllers\Api\V1\PhotoGetController;
 use Illuminate\Support\Facades\Route;
 
